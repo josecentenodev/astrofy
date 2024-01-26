@@ -3,17 +3,21 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
-<BaseLayout title="Resume" sideBarActiveItemID="cv">
+<BaseLayout
+  title="Resume"
+  sideBarActiveItemID="cv"
+>
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Profile</div>
   </div>
 
-  <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </div>
+  <p class="mb-10 text-ellipsis">
+    Passionate Fullstack Developer with a strong background in technologies such
+    as React, Next, TailwindCSS, Node.js, Sequelize, and PostgreSQL. My
+    fascination with web development has led me to work on projects for
+    prominent companies as well as personal initiatives, where I've applied my
+    skills to create effective technological solutions.
+  </p>
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Education</div>
@@ -21,12 +25,12 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Full Stack Developer"
+      subtitle="Sep 2023 to Feb 2024 at Henry"
     />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Chemical Engineer"
+      subtitle="2013 to 2017 at UTN, Córdoba, Argentina"
     />
   </div>
 
@@ -36,22 +40,46 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Full Stack Developer"
+      subtitle="From Jan 2024 to present at Awaq ONGD, Madrid, Spain"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      Awaq Campus Internship is a web application designed for college students
+      who wish to engage in internships across various specializations. The
+      application allows students to book rooms and access specific facilities
+      within the campus. I am in charge of implementing reusable components,
+      designing the router, and creating administration panels. Additionally, I
+      handled effective communication with the backend, modifying and
+      maintaining it to achieve the project's objectives.
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Front End Developer"
+      subtitle="From Dic 2022 to present at GUTI Software, Córdoba, Argentina"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      IT Asset Management and Service Desk solution, a powerful software
+      designed to streamline and optimize your organization's IT operations.
+      This feature-rich platform offers a robust set of tools to manage and
+      track assets, automate workflows, and enhance overall IT service delivery.
+      As a Front End Developer in a large-scale application my role has been
+      pivotal in shaping the user experience and functionality of the platform.
+      I have taken charge of developing and enhancing features that contribute
+      to the overall usability and visual appeal of the application.
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="IT consultant"
+      subtitle="From 2017 to 2023 at Program Consultores SA, Córdoba, Argentina"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      I previously worked as an IT consultant with a focus on public
+      administration. In this role, I conducted thorough analyses of systems and
+      managed requirements for the development and enhancement of processes. I
+      actively engaged in training clients on various applications and
+      demonstrated proficiency in customer relationship management (CRM). My
+      responsibilities included conducting surveys, developing, and modifying
+      specialized reports. I utilized SQL for generating database queries,
+      extracting, modifying, processing, and transferring data. Additionally, I
+      played a key role in the restoration and correction of databases using
+      SQL. I also contributed to the development and modification of logical
+      formulas using Visual Basic. Furthermore, I successfully parameterized and
+      implemented various system modules to meet the specific needs of clients.
     </TimeLineElement>
   </div>
 
@@ -61,10 +89,60 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <ul class="list-disc mx-6 mb-10 grid gap-2">
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a
+        href="https://platzi.com/p/jocecito18221/curso/7296-chatgpt/diploma/detalle/"
+        target="_blank"
+      >
+        Prompr Engineering con ChatGPT</a
+      >
     </li>
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a
+        href="https://www.udemy.com/certificate/UC-f129efb9-edfe-42c6-9278-b4c4072d656a/"
+        target="_blank"
+      >
+        NodeJs: Begginer practical guide - Ecommerce Web API [2022]</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://www.udemy.com/certificate/UC-08ef703b-d4db-4a66-9fd1-8f6bc02f09e2/"
+        target="_blank"
+      >
+        The Complete 2022 Web Development Bootcamp</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://www.udemy.com/certificate/UC-edb28381-79e4-48f5-8042-4609d8804700/"
+        target="_blank"
+      >
+        Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://www.freecodecamp.org/certification/fcc38b10b1b-76b2-472f-a541-11de60db55ac/front-end-development-libraries"
+        target="_blank"
+      >
+        Front End Libraries</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://www.freecodecamp.org/certification/fcc38b10b1b-76b2-472f-a541-11de60db55ac/javascript-algorithms-and-data-structures"
+        target="_blank"
+      >
+        JavaScript Algorithms and Data Structures</a
+      >
+    </li>
+    <li>
+      <a
+        href="https://www.freecodecamp.org/certification/fcc38b10b1b-76b2-472f-a541-11de60db55ac/responsive-web-design"
+        target="_blank"
+      >
+        Responsive Web Design</a
+      >
     </li>
   </ul>
 
@@ -73,20 +151,20 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>JavaScript</li>
+    <li>Typescript</li>
+    <li>TailwindCSS</li>
+    <li>Node.js</li>
+    <li>Express.js</li>
+    <li>React.js</li>
+    <li>Next.js</li>
+    <li>MySQL</li>
+    <li>PostgreSQL</li>
+    <li>MongoDB</li>
+    <li>Firebase</li>
+    <li>Sequelize</li>
+    <li>Axios</li>
   </ul>
 </BaseLayout>

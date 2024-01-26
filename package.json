@@ -1,8 +1,8 @@
 {
-  "name": "astrofy",
-  "description": "Astrofy is a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS. Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed.",
+  "name": "josecentenoastrodev",
+  "description": "My portfolio using Astro for the very first time",
   "type": "module",
-  "version": "2.5.1",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "astro dev",
@@ -16,6 +16,7 @@
     "@astrojs/rss": "^3.0.0",
     "@astrojs/sitemap": "^3.0.0",
     "@astrojs/tailwind": "^5.0.0",
+    "@fontsource-variable/dm-sans": "^5.0.3",
     "astro": "^3.2.3",
     "daisyui": "^3.2.1",
     "dayjs": "^1.11.9",
