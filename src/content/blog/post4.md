@@ -1,9 +1,9 @@
 ---
-title: "Demo Post 1"
+title: "De Novato a Ninja: Mi Viaje en el Desarrollo Web"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 10 2022"
-heroImage: "/post_img.webp"
-tags: ["tokio"]
+pubDate: "Jan 28 2024"
+heroImage: "/blog1.jpg"
+tags: ["ExperienciaPersonal", "DesarrolloProfesional", "AprendizajeContinuo", "NovatoaNinja", "DesarrolloWeb", "Programación"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
